@@ -1,0 +1,192 @@
+/* estruturas*/
+
+
+main{
+    background-color:#F8F8FF;
+    padding-bottom: 220px;
+}
+
+p{
+    font-family: "Poppins", Sans-serif;
+
+}
+
+form
+.form-control{
+    width: 65%;
+}
+.barra_tarefa{
+    border: 0.5px solid #d3d3d3;
+
+}
+.icon-taskbar{
+    
+    bottom: 10px;
+    left: 10px;
+    width: 40px; /* Largura do ícone */
+    height: 40px; /* Altura do ícone */
+    
+}
+.nav-link{
+    margin: 0 20px;
+    font-family: "Poppins", Sans-serif;
+}
+
+.dep{
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+}
+.dep_2{
+    color:brown
+}
+.tit-2{
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+.w-100 {
+    width: 80% !important;
+}
+.img-dep{
+    width: 60%;
+    margin-top: -30px;
+
+}
+.sobre-pag{
+    padding: 150px 30px 600px 30px;
+}
+
+.img_planos{
+    position: relative;
+    left: 20%;
+    width: 80%;
+}
+
+
+.tit-sobre{
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: brown;
+
+}
+.sobre{
+    width:100%;
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color:#F8F8FF;
+    border: 0.2px solid #d3d3d3;
+    border-radius: 20px;
+
+}
+.preço_2{
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    color: chocolate;
+    font-weight: bold;
+
+}
+.preco_1{
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    
+}
+.planos-pag{   
+    background-color: #F8F8FF;
+    padding: 150px 30px 400px 30px;
+    
+}
+#depoimentos{
+    margin-left: 50px;
+    margin-top: -2px;
+    
+}
+
+#login{
+    margin-top: 60px;
+    width: 100%;
+}
+
+#pontos{
+    font-family: "Poppins", Sans-serif;
+
+}
+#butom-compra{
+    margin: 0 20px;
+    font-family: "Poppins", Sans-serif;
+}
+#boton-form{
+    margin: 10px 10px;
+}
+#tit-compra{
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+    color: brown;
+
+}
+#card-compra{
+    font-family: "Poppins", Sans-serif;
+}
+#boton_plano{
+    position: relative;
+    left: 120px;
+    margin-top: 10%;
+}
+.rodape{
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+
+}
+.logo-rodape{
+    margin-top: 2%;
+    width: 5%;
+}
+@media only screen and (max-width: 768px) {
+    .barra_tarefa{
+        display: block;
+        
+    }
+    .form-control{
+        width: 100%;
+    }
+    #depoimentos{
+        width: 100%;
+        margin: 0%;
+    }
+    .nav-link{
+        position: relative;
+        left: 0%;
+
+    }
+    .img-dep{
+        width: 100%;
+    }
+    .w-100 {
+        width: 100% !important;
+    }
+    .img_planos{
+        width: 100%;
+        margin: 0%;
+        left: 0%;
+        
+    }
+    #plano-planner{
+        
+        margin: 0%;
+    }
+    #boton_plano{
+        position: relative;
+        left: 0%;
+
+    }
+    .preço_2{
+        font-size: 30px;
+    }
+   
+
+}
